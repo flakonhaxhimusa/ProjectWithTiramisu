@@ -6,28 +6,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>contact us</title>
     <style>
-.cakes{
-    border: 1px solid black;
-    color: red;
-    background-color: aquamarine;
+        body{
+            background-color: pink;
+            display: flex;
+            height: 100vh;
+         
+        }
+
+form{
+    margin-top: 370px;
+    margin-left: 960px;
 }
+fieldset{
+    padding-left:170px ;
+    width: 450px;
+    height: 500px;
+    align:center;
+}
+.r{
+    font-size: 16px;
+}
+strong{
+    font-size: 16px;
+}
+
     </style>
 </head>
 <body>
-    <table align="center" width="1000px">
-        <tr>
-           <td><h1>AlCakes</h1></td>
-           <td></td>
-           <td align="right"><a href="" class="cakes"> Tell us about the taste of our cakes!</a></td>
-   
-        </tr>
-   
-        <tr>
-           <td>
-               posted on<i>June 13, 2019 </i> / posted in 
-               <a href="#">No-bake recipes</a>
-           </td>
-        </tr>
+    
+
+    
+
+   <form action="">
+<fieldset>
+   <legend> <h1>Message for taste of the cake</h1></legend>
+
+
+    <strong >Name<input type="text" class="r" placeholder="your name" minlength="2" required></strong>
+<br>
+<br>
+<strong>Surname<input type="text" class="r" placeholder="your surname" minlength="6" required></strong>
+<br>
+<br>
+<strong>Phone<input type="tel" class="r" placeholder="your phone number" minlength="9" required></strong>
+<br>
+<br>
+<strong>Adress<input type="text" class="r" placeholder="your adress" minlength="5" required></strong>
+<br>
+<br>
+<textarea name="" id="Message" class="r" cols="30" rows="10" placeholder="Message..."></textarea>
+<br><br>
+
+<input type="submit" class="r" value="Submit">
+<input type="reset" class="r" value="Reset">
+</fieldset>
+   </form>     
 
 </body>
 </html>

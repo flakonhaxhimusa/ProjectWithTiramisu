@@ -6,17 +6,106 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Order</title>
     <style>
-
+        body{
+            background-color: pink;
+        }
+   form{
+    margin-top: 280px;
+    margin-left:  800px;;
+    align: center ;
+    width: 800px;
+   }
+        
+  .p{
+    font-size: 23px;
+  }
+  .pieces{
+    width: 139px;
+  }
+  .l{
+    font-size: 50px
+  }
     </style>
 </head>
 <body>
+
+
+
     <form method="get" class="">
+
+
         <fieldset>
             <legend><h1> Select the cake that you want</h1></legend>
 
-        </fieldset>
-        <p><b>   </b></p>
-        <input type="text">
+            <p class="p"><b>Select the size of your cake</b></p>
+
+            <input type="radio"  class="l" name="size" value="small">
+        <label for="size">Small</label>
+        <br>
+
+        <input type="radio" class="l" name="size" value="medium">
+        <label for="size">Medium</label>
+        <br>
+
+        <input type="radio" class="l" name="size" value="Large">
+        <label for="size">Large</label>
+        <br>
+<br>
+<select name="cakes" id="cakesselect">
+    <option value="">  Choose a cake</option>
+
+    <option value="Oreo Cake">Oreo Cake</option>
+    <option value="Strawberrie Cake">Strawberrie Cake</option>
+    <option value="Milka Cake">Milka Cake</option>
+    <option value="Vanilla Cake">Vanilla Cake</option>
+    <option value="Chocolate Cake">Chocolate Cake</option>
+    <option value="Wedding Cake">Wedding Cake</option>
+    <option value="Biscuit Cake">Biscuit Cake</option>
+    <option value="Sponge Cake"> Sponge Cake</option>
+    <input  type="number"  class="pieces"   value="pieces" min="0" max="6" placeholder="How many pieces">
+</select>
+      <br>
+      <br>
+
+    <select name="Decorations" id="Decorations-select">
+    <option value="">Choose your Decoration</option>
+
+
+    <option value="">Nothing</option>
+    <option value="">Laptop,phone etc.</option>
+    <option value="">Flowers</option>
+    <option value="">car or the name of the car</option>
+    <option value="">The logo,name of your favourite club</option>
+    <option value="">Your photo on it</option>
+    <input type="text" placeholder="Anything else">
+</select>
+<br><br>
+
+
+<strong>Name<input type="text" placeholder="your name" minlength="2" required></strong>
+<br>
+<br>
+<strong>Surname<input type="text" placeholder="your surname" minlength="6" required></strong>
+<br>
+<br>
+<strong>Phone<input type="tel" placeholder="your phone number" minlength="9" required></strong>
+<br>
+<br>
+<strong>Adress<input type="text" placeholder="your adress" minlength="5" required></strong>
+<br>
+<br>
+<textarea name="" id="Message" cols="30" rows="10" placeholder="Message..."></textarea>
+<br><br>
+
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+
+
+</fieldset>
+      
+
+        
+
     </form>
     
 </body>
