@@ -1,5 +1,10 @@
 .cakes{
     border: 1px solid black;
     color: red;
-    
+    background-color: aquamarine;
+}
+.special{
+    padding:2px;
+    border: 2px solid red;
+    color: black;
 }
