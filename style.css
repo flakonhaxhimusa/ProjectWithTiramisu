@@ -1,5 +1,5 @@
 body{
-    background-color: pink;
+    background-color: #abb8c3;
 }
 
 .cakes{
@@ -22,4 +22,23 @@ body{
 }
 .special:hover{
 background-color: #ddd; 
+}
+.box{
+   margin-left: 30px;
+    border:1px solid #bcc8d1 ;
+    max-width: 700px;
+
+}
+.h{
+    padding-left: 275px;
+    font-size: 29px;
+    color: #167bc7;
+
+}
+.p{
+    padding: 15px;
+    font-size: 16px;
+}
+.h1{
+    margin-left: 600px;
 }
