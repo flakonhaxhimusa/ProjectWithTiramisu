@@ -1,6 +1,9 @@
 body{
     background-color: #abb8c3;
 }
+p{
+    font-size: 19px;
+}
 
 .cakes{
     padding: 4px;
@@ -23,10 +26,16 @@ body{
 .special:hover{
 background-color: #ddd; 
 }
-.box{
-   margin-left: 30px;
+.box1{
+   margin-left: 500px;
     border:1px solid #bcc8d1 ;
     max-width: 700px;
+
+}
+
+.h1{
+    margin-left: 1100px;
+    font-size: 40px;
 
 }
 .h{
@@ -37,8 +46,41 @@ background-color: #ddd;
 }
 .p{
     padding: 15px;
-    font-size: 16px;
+    font-size: 20px;
 }
-.h1{
-    margin-left: 600px;
-}
+
+.box2{
+    margin-left: 1300px;
+     border:1px solid #bcc8d1 ;
+     max-width: 700px;
+ 
+ }
+ .h{
+     padding-left: 275px;
+     font-size: 29px;
+     color: #167bc7;
+ 
+ }
+ .p{
+     padding: 15px;
+     font-size: 20px;
+ }
+
+
+
+ .box3{
+    margin-left: 500px;
+     border:1px solid #bcc8d1 ;
+     max-width: 700px;
+ 
+ }
+ .h{
+     padding-left: 275px;
+     font-size: 29px;
+     color: #167bc7;
+ 
+ }
+ .p{
+     padding: 15px;
+     font-size: 20px;
+ }
